@@ -1,0 +1,11 @@
+C:\Users\binay\OneDrive\Escritorio\Redo of Exercises\Exercici_LletresRepetides\Exercici_LletresRepetides\bin\Debug\netcoreapp3.0\Exercici_LletresRepetides.exe
+C:\Users\binay\OneDrive\Escritorio\Redo of Exercises\Exercici_LletresRepetides\Exercici_LletresRepetides\bin\Debug\netcoreapp3.0\Exercici_LletresRepetides.deps.json
+C:\Users\binay\OneDrive\Escritorio\Redo of Exercises\Exercici_LletresRepetides\Exercici_LletresRepetides\bin\Debug\netcoreapp3.0\Exercici_LletresRepetides.runtimeconfig.json
+C:\Users\binay\OneDrive\Escritorio\Redo of Exercises\Exercici_LletresRepetides\Exercici_LletresRepetides\bin\Debug\netcoreapp3.0\Exercici_LletresRepetides.runtimeconfig.dev.json
+C:\Users\binay\OneDrive\Escritorio\Redo of Exercises\Exercici_LletresRepetides\Exercici_LletresRepetides\bin\Debug\netcoreapp3.0\Exercici_LletresRepetides.dll
+C:\Users\binay\OneDrive\Escritorio\Redo of Exercises\Exercici_LletresRepetides\Exercici_LletresRepetides\bin\Debug\netcoreapp3.0\Exercici_LletresRepetides.pdb
+C:\Users\binay\OneDrive\Escritorio\Redo of Exercises\Exercici_LletresRepetides\Exercici_LletresRepetides\obj\Debug\netcoreapp3.0\Exercici_LletresRepetides.csprojAssemblyReference.cache
+C:\Users\binay\OneDrive\Escritorio\Redo of Exercises\Exercici_LletresRepetides\Exercici_LletresRepetides\obj\Debug\netcoreapp3.0\Exercici_LletresRepetides.AssemblyInfoInputs.cache
+C:\Users\binay\OneDrive\Escritorio\Redo of Exercises\Exercici_LletresRepetides\Exercici_LletresRepetides\obj\Debug\netcoreapp3.0\Exercici_LletresRepetides.AssemblyInfo.cs
+C:\Users\binay\OneDrive\Escritorio\Redo of Exercises\Exercici_LletresRepetides\Exercici_LletresRepetides\obj\Debug\netcoreapp3.0\Exercici_LletresRepetides.dll
+C:\Users\binay\OneDrive\Escritorio\Redo of Exercises\Exercici_LletresRepetides\Exercici_LletresRepetides\obj\Debug\netcoreapp3.0\Exercici_LletresRepetides.pdb
