@@ -35,29 +35,57 @@ namespace Exercici_LletresRepetides
                 }
                 else if(j>'0' && '9' > j)
                 {
-                    Console.WriteLine("El nom no pot contenir numeros, com has posat aquí: "+j);
+                    Console.WriteLine(j+" = El nom no pot contenir numeros, com has posat aquí.");
                 }
             }
             Console.ReadKey();
 
             Console.WriteLine("!!!!!!!!!!!!!!!!!Fase 3!!!!!!!!!!!!!!!!!");
 
-            int counter = 1;
-            int counterRepeated = 1;
-            Dictionary<char, int> myNameDictionary = new Dictionary<char, int>();
-            for(int i = 0; i<nameList.Count; i++)
+            var myNameDictionary = new Dictionary<char, int>();
+            for(int i = 0; i < nameList.Count; i++)
             {
-               for(int j = 0; j<nameList.Count; j++)
+                var key = nameList[i];
+                if (myNameDictionary.ContainsKey(key))
                 {
-                    foreach(char k in nameList)
-                    {
-                        if(nameList[j] is in nameList[i])
-                        {
-
-                        }
-                    }
+                    myNameDictionary[key]++;
+                }
+                else
+                {
+                    myNameDictionary.Add(nameList[i], 1);
                 }
             }
+            foreach (KeyValuePair<char, int> kvp in myNameDictionary)
+            {
+                Console.WriteLine("Char = {0}, Repetició = {1}", kvp.Key, kvp.Value);
+            }
+
+            Console.ReadKey();
+            Console.WriteLine("!!!!!!!!!!!!!!!!!Fase 4!!!!!!!!!!!!!!!!!");
+
+            char[] surnameArray = { 'T', 'i', 'm', 'i', 'l', 's', 'i', 'n', 'a' };
+            var surNameList = new List<char>();
+            var nomCompert = new List<char>();
+            for(int i = 0; i < surnameArray.Length; i++)
+            {
+                surNameList.Add(surnameArray[i]);
+            }
+            foreach(char k in nameList)
+            {
+                nomCompert.Add(k);
+            }
+            nomCompert.Add(' ');
+            foreach(char j in surNameList)
+            {
+                nomCompert.Add(j);
+            }
+            foreach(char k in nomCompert)
+            {
+                Console.WriteLine(k);
+            }
+            Console.ReadKey();
+            
+
         }
     }
 }
